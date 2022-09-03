@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  font-size: calc(100vh - 6rem);
+  background: linear-gradient(#cc2b5e, #753a88);
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
